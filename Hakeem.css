@@ -79,6 +79,13 @@ span{
 section{
     padding: 140px 10% 100px;
 }
+/* section img{
+    width: 500px;
+    position: relative;
+    height: 600px;
+    margin: 0 25px;
+    border-radius: 25px;
+} */
 .home{
     position: relative;
     height: 100vh;
@@ -138,6 +145,7 @@ section{
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 40px;
+    
 }
 .button{
     display: inline-flex;
@@ -147,17 +155,18 @@ section{
 .btn{
     display: inline-block;
     padding: 12px 28px;
-    background: var(--main-color);
+    background-color: #a93000;
     border-radius: 5px;
     color: #fff;
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: 600;
-    transition: all .45s esae;
+    transition: all .45s ease;
     transform: scale(1.0);
+    background-color: #ff4d05;
 }
 .btn:hover{
-    transform: scale(1.0);
+    transform: scale(1.2);
 }
 .btn2{
     display: inline-flex;
@@ -165,7 +174,16 @@ section{
     justify-content: center;
     font-size: 30px;
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     margin-left: 50px;
+    border-radius: 5px;
+    padding: 12px 28px;background-color: #a93000;
+    transform: scale(1.0);
+    transition: all .45s ease;
+}
+.btn2:hover{
+    background-color: #ff4d05;
+    transform: scale(1.2);
+    
 }
