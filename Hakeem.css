@@ -163,10 +163,11 @@ section{
     font-weight: 600;
     transition: all .45s ease;
     transform: scale(1.0);
-    background-color: #ff4d05;
+    /* background-color: #ff4d05; */
 }
 .btn:hover{
     transform: scale(1.2);
+    background-color: #ff4d05;
 }
 .btn2{
     display: inline-flex;
