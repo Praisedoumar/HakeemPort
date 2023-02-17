@@ -100,18 +100,72 @@ section{
     height: 25px;
     padding: 10 30px;
     line-height: 40px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 500;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     
 }
 .two{
     display: inline-block;
-    height: 25px;
-    /* padding: 10 30px; */
-    /* line-height: 38px; */
+    color: var(--second-color);
+    font-size: 40px;
+    font-weight: 500;   
+}
+.home-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+.home-text h1 span{
+    color: rgb(147, 200, 210);
+    font-size: 55px;
+    text-shadow: #ff4d05;
+    text-decoration-style: double;
+}
+.home-text h3{
+    width: 500px;
+    color: var(--text-color);
+    margin: 0 0 35px;
     font-size: 30px;
     font-weight: 500;
-    /* border-radius: 5px;
-    background-color: #ff4d05; */
+    line-height: 1.9;
+
+}
+.home-text p{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s esae;
+    transform: scale(1.0);
+}
+.btn:hover{
+    transform: scale(1.0);
+}
+.btn2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 50px;
 }
