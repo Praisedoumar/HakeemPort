@@ -31,6 +31,7 @@ header{
     position: fixed;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 40px;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -78,6 +79,7 @@ span{
 }
 section{
     padding: 140px 10% 100px;
+    
 }
 /* section img{
     width: 500px;
@@ -104,7 +106,7 @@ section{
 .one{
     display: inline-block;
     margin-right: 0px;
-    height: 25px;
+    height: 10px;
     padding: 10 30px;
     line-height: 40px;
     font-size: 70px;
@@ -117,6 +119,9 @@ section{
     color: var(--second-color);
     font-size: 40px;
     font-weight: 500;   
+}
+.home{
+    height:100%;
 }
 .home-text h1{
     font-size: 50px;
@@ -187,4 +192,86 @@ section{
     background-color: #ff4d05;
     transform: scale(1.2);
     
+}
+.about{
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    
+}
+section div img{
+    width: 300px;
+    border-radius: 20px;
+    /* margin-top: 30px; */
+    margin-right: 120px;
+    /* margin-bottom: 20px; */
+
+}
+section div img:hover{
+    transform: scale(1.2);
+    transform-style: preserve-3d;
+}
+
+.about-text{
+    border: 2px transparent;
+    border-radius: 25px;
+    width: 600px;
+    font-weight: 500;
+    background-color: #595454;
+    /* margin-top: 100px; */
+    
+}
+.about-text:hover{
+    transform: scale(0.45s);
+    
+}
+div h2{
+    font-weight: 600;
+    font-size: xx-large;
+    padding: 20 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+div h4{
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div p{
+   /* text-align:start; */
+   justify-content: center;
+   width: fit-content;
+   margin-right: 10px;
+   margin-left: 20px;
+   /* font-size: x-large; */
+}
+.btn3{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: #a93000;
+    transform: scale(1.0);
+    transition: all .45s ease;
+    text-align: center;
+    align-items: center;
+}
+.btn3:hover{
+    background-color: #ff4d05;
+    transform: scale(1.1);
 }
